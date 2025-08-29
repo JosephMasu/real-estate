@@ -10,7 +10,7 @@ import { useRouter } from "next/navigation";
 // import { setFilters } from "@/state";
 
 const HeroSection = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
 
